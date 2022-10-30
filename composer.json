@@ -1,0 +1,27 @@
+{
+    "name": "gc-lib/auth-lib",
+    "description": "OAuth2.0 REST lib to add to other ms-apps",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Jesus",
+            "email": "jesus@geracaoconsciente.pt"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+           "GcLib\\AuthLib\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GcLib\\AuthLib\\AuthLibServiceProvider"
+            ]
+        }
+    }
+}
