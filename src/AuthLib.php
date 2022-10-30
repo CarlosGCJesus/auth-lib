@@ -11,7 +11,6 @@ class AuthLib
 
     public static function testConnection(?string $msg = 'Polite MS saying hi...')
     {
-        dump("sim2");
         //@TODO usar envs
         $client = new Client([
             'base_uri' => 'http://nginx_auth'

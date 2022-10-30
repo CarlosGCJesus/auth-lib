@@ -1,1 +1,2 @@
 [30/10/2022] V0.0.2 # BEFORE GIT|PACKAGE integration
+[30/10/2022] V0.0.3 # AFTER GIT|PACKAGE integration
